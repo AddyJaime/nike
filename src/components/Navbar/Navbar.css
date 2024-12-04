@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 20px;
+  font-family: var(--navbar-font-family);
+  font-size: var(--navbar-font-size);
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo {
+  width: 40px;
+  height: auto;
+}
+
+.nav-link {
+  display: flex;
+  gap: 38px;
+}
+
+.nav-link > a {
+  text-decoration: none;
+}
+
+.nav-brand {
+  font-weight: bold;
+  color: #ff6a3d;
+  font-size: 25px;
+}
+
+.nav-right {
+  color: black;
+}
