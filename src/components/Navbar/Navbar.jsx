@@ -1,11 +1,12 @@
 import "./Navbar.css";
+import logo from "../../assets/images/header-logo.svg";
+
 const Navbar = () => {
   return (
     // Navleft "Logo "
     <nav className="navbar">
       <div className="nav-left">
-        <img src="" alt="logo" className="nav-logo" />
-        <span className="nav-brand">Nike</span>
+        <img src={logo} alt="logo" className="nav-logo" />
       </div>
       {/* Nav center items   */}
       <div className="nav-link">
@@ -17,7 +18,7 @@ const Navbar = () => {
       {/* Nav right "sign in and explore now" */}
       <div className="nav-right">
         <span>Sign in / </span>
-        <span>Explore Now</span>
+        <span>Explore now</span>
       </div>
     </nav>
   );
