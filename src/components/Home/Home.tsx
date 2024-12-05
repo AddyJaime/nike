@@ -29,9 +29,7 @@ const Home: React.FC = () => {
           <h2>250k+</h2>
           <p>Customers</p>
         </div>
-        <div className="nike-shoes">
-          <img src="" alt="shoes" />
-        </div>
+        <div className="nike-shoes">{/* <img src="" alt="shoes" /> */}</div>
       </div>
     </div>
   );
