@@ -1,0 +1,36 @@
+.home-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 7rem 15rem;
+}
+
+.tagline {
+  font-size: 4rem;
+  font-family: var(--navbar-font-family);
+  margin-bottom: 15px;
+}
+.highlight {
+  color: var(--home-color);
+}
+
+.description {
+  font-size: 1.4rem;
+  /* limi the text width */
+  max-width: 420px;
+  color: #41464bd8;
+}
+
+.title {
+  font-size: 30px;
+  color: var(--home-color);
+}
+
+.btn-shop-now {
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #ff6a3d;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}

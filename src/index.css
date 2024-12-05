@@ -8,4 +8,12 @@ body {
 :root {
   --navbar-font-size: 1.2rem;
   --navbar-font-family: "Roboto", sans-serif;
+  --home-color: #ff6a3d;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
 }
