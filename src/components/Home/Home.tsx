@@ -1,4 +1,5 @@
 import React from "react";
+import shoes from "../../assets/images/big-shoe1.png";
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -18,7 +19,7 @@ const Home: React.FC = () => {
       </button>
       <div className="stats">
         <div>
-          <h2>1k+</h2>
+          <h2>1K+</h2>
           <p>Brands</p>
         </div>
         <div>
@@ -26,10 +27,12 @@ const Home: React.FC = () => {
           <p>Shops</p>
         </div>
         <div>
-          <h2>250k+</h2>
+          <h2>250K+</h2>
           <p>Customers</p>
         </div>
-        <div className="nike-shoes">{/* <img src="" alt="shoes" /> */}</div>
+        <div className="nike-shoes">
+          <img src={shoes} alt="shoes" />
+        </div>
       </div>
     </div>
   );
