@@ -1,0 +1,37 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.stats > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 5px;
+  background: linear-gradient(135deg, #ffffff, #f7f7f7);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.stats > div h2 {
+  font-size: 2rem;
+  color: #ff6a3d;
+  margin-bottom: 5px;
+}
+
+.stats > div p {
+  font-size: 1rem;
+  color: #41464bd8;
+  margin: 0;
+}
