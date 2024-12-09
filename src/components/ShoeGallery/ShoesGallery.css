@@ -7,7 +7,7 @@
 
 .shoe-item {
   padding: 20px;
-  background: linear-gradient(135deg, #ffffff, #e0e0e0);
+  border: 1px solid black;
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

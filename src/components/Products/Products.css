@@ -1,0 +1,21 @@
+.products-section {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: rgba(0, 255, 255, 0.642); */
+  padding: 7rem 15rem;
+  padding-top: 0;
+}
+
+.popular-hightlight {
+  color: var(--home-color);
+}
+
+.products-title > h1 {
+  font-size: 50px;
+}
+
+.products-title > p {
+  font-size: var(--paragram-font-size);
+  max-width: 420px;
+  color: black;
+}

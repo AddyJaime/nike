@@ -6,7 +6,7 @@ import "./Home.css";
 
 const Home: React.FC = () => {
   return (
-    <div className="home-section">
+    <div id="home" className="home-section">
       <p className="title">Our Summer Collection</p>
       <h1 className="tagline">
         The New Arrival <br />

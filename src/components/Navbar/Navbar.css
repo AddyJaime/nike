@@ -5,6 +5,13 @@
   padding: 35px 20px;
   font-family: var(--navbar-font-family);
   font-size: var(--navbar-font-size);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #d6d4f2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .nav-left {
   display: flex;
@@ -24,9 +31,15 @@
 
 .nav-link > a {
   text-decoration: none;
-  color: rgba(128, 128, 128, 0.903);
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link > a:hover {
+  color: rgba(255, 255, 255, 0.332);
 }
 
 .nav-right {
   color: black;
+  font-weight: bold;
 }

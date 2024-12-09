@@ -2,13 +2,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.861);
+  background-color: #d6d4f2;
+  /* background-color: white; */
 }
 
 :root {
   --navbar-font-size: 1.2rem;
   --navbar-font-family: "Roboto", sans-serif;
   --home-color: #ff6a3d;
+  --paragram-font-size: 1.4rem;
 }
 
 .page-container {
