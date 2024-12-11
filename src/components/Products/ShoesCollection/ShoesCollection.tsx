@@ -1,8 +1,8 @@
 import React from "react";
-import nike1 from "../../assets/images/shoe4.svg";
-import nike2 from "../../assets/images/shoe5.svg";
-import nike3 from "../../assets/images/shoe6.svg";
-import nike4 from "../../assets/images/shoe7.svg";
+import nike1 from "../../../assets/images/shoe4.svg";
+import nike2 from "../../../assets/images/shoe5.svg";
+import nike3 from "../../../assets/images/shoe6.svg";
+import nike4 from "../../../assets/images/shoe7.svg";
 import "./ShoesCollection.css";
 
 const ShoesCollection: React.FC = () => {

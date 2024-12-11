@@ -1,9 +1,9 @@
 import React from "react";
-import StatsSection from "../../components/StatsSection/StatsSection";
-import ShoeDisplay from "../../components/ShoeDisplay/ShoeDisplay";
-import ShoeGallery from "../../components/ShoeGallery/ShoeGallery";
+import StatsSection from "./StatsSection/StatsSection";
+import ShoeDisplay from "./ShoeDisplay/ShoeDisplay";
+import ShoeGallery from "./ShoeGallery/ShoeGallery";
 import "./Home.css";
-import Button from "../Button/Button";
+import Button from "../common/Button/Button";
 
 const Home: React.FC = () => {
   return (

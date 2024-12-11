@@ -1,5 +1,5 @@
 import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/common/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import "./index.css";
 import logo from "./assets/images/header-logo.svg";

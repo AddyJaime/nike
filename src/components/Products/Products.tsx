@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.css";
-import ShoesCollection from "../ShoesCollection/ShoesCollection";
+import ShoesCollection from "./ShoesCollection/ShoesCollection";
 
 const Products: React.FC = () => {
   return (
