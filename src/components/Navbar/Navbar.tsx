@@ -1,17 +1,20 @@
 import "./Navbar.css";
-import logo from "../../assets/images/header-logo.svg";
 import React from "react";
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  logoSrc: string;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ logoSrc }) => {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <img src={logo} alt="logo" className="nav-logo" />
+        <img src={logoSrc} alt="logo" className="nav-logo" />
       </div>
 
       <div className="nav-link">
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
+        <a href="home">Home</a>
+        <a href="products">Products</a>
         <a href="">About Us</a>
         <a href="">Contact Us</a>
       </div>

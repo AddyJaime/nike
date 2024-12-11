@@ -3,6 +3,7 @@ import StatsSection from "../../components/StatsSection/StatsSection";
 import ShoeDisplay from "../../components/ShoeDisplay/ShoeDisplay";
 import ShoeGallery from "../../components/ShoeGallery/ShoeGallery";
 import "./Home.css";
+import Button from "../Button/Button";
 
 const Home: React.FC = () => {
   return (
@@ -16,9 +17,9 @@ const Home: React.FC = () => {
         Discover stylish Nike Arrivals, quality comfort, and innovation for your
         active life.
       </p>
-      <button className="btn-shop-now">
+      <Button className="btn-primary">
         Shop now <span>→</span>
-      </button>
+      </Button>
 
       <StatsSection />
       <ShoeDisplay />
