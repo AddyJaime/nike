@@ -1,8 +1,8 @@
 import React from "react";
 import "./ShoesGallery.css";
-import shoes1 from "../../assets/images/big-shoe1.png";
-import shoes2 from "../../assets/images/big-shoe2.png";
-import shoes3 from "../../assets/images/big-shoe3.png";
+import shoes1 from "../../../assets/images/big-shoe1.png";
+import shoes2 from "../../../assets/images/big-shoe2.png";
+import shoes3 from "../../../assets/images/big-shoe3.png";
 
 const ShoeGallery: React.FC = () => (
   <div className="all-shoes">
