@@ -8,9 +8,9 @@ interface ShoesRatingProps {
 const ShoesRating: React.FC<ShoesRatingProps> = ({ productName }) => {
   return (
     <div className="shoes-item">
-      <span>⭐️(4.5)</span>
+      <span>🌟(4.5)</span>
       <p>{productName}</p>
-      <p>Rs.21000</p>
+      <p className="hight-light-shoes">Rs.21000</p>
     </div>
   );
 };
