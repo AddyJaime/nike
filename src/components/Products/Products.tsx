@@ -1,6 +1,7 @@
 import React from "react";
 import "./Products.css";
 import ShoesCollection from "./ShoesCollection/ShoesCollection";
+import ShoesRating from "./ShoesRating/ShoesRating";
 
 const Products: React.FC = () => {
   return (
@@ -15,6 +16,12 @@ const Products: React.FC = () => {
         </p>
       </div>
       <ShoesCollection />
+      <div className="shoes-rating ">
+        <ShoesRating productName="Nike Air Jordan-01" />
+        <ShoesRating productName="Adidas Ultraboost" />
+        <ShoesRating productName="Puma RS-X3" />
+        <ShoesRating productName="Reebok Classic" />
+      </div>
     </div>
   );
 };

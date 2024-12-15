@@ -19,3 +19,26 @@
   max-width: 420px;
   color: black;
 }
+
+.shoes-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.shoes-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 230px;
+  padding: 10px;
+  gap: 8px;
+  background-color: aqua;
+}
