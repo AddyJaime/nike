@@ -1,0 +1,28 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: rgba(255, 0, 0, 0.382); */
+  padding: 7rem 15rem;
+}
+
+.about h1 {
+  font-size: 50px;
+  max-width: 500px;
+}
+
+.about span {
+  color: var(--home-color);
+}
+
+.about p {
+  max-width: 30%;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.846);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image {
+  position: absolute;
+  left: 55%;
+  top: 200%;
+}

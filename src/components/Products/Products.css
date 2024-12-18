@@ -1,6 +1,6 @@
 .products-section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   /* background-color: rgba(0, 255, 255, 0.642); */
   padding: 7rem 15rem;
   padding-top: 0;
@@ -17,7 +17,7 @@
 .products-title > p {
   font-size: var(--paragram-font-size);
   max-width: 420px;
-  color: black;
+  color: rgba(0, 0, 0, 0.846);
 }
 
 .shoes-rating {
@@ -33,6 +33,7 @@
 .shoes-item {
   display: flex;
   flex-direction: column;
+
   align-items: center;
   text-align: center;
   padding: 5px;

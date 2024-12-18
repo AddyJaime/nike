@@ -13,9 +13,9 @@ const Navbar: React.FC<NavbarProps> = ({ logoSrc }) => {
       </div>
 
       <div className="nav-link">
-        <a href="home">Home</a>
-        <a href="products">Products</a>
-        <a href="">About Us</a>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
         <a href="">Contact Us</a>
       </div>
 

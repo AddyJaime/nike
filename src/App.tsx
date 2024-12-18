@@ -5,6 +5,7 @@ import "./index.css";
 import logo from "./assets/images/header-logo.svg";
 
 import React from "react";
+import About from "./components/About/About";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <Navbar logoSrc={logo} />
       <Home />
       <Products />
+      <About />
     </div>
   );
 };
