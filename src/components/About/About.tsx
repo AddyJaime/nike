@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../../assets/images/shoe8.svg";
 import "./About.css";
+import Button from "../common/Button/Button";
 
 const About: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const About: React.FC = () => {
         <div className="image">
           <img src={photo} alt="" />
         </div>
+        <Button className="details-btn">View details</Button>
       </div>
     </>
   );

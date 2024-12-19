@@ -26,3 +26,8 @@
   left: 55%;
   top: 200%;
 }
+
+.details-btn {
+  color: white;
+  background-color: var(--home-color);
+}
