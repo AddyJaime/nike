@@ -6,6 +6,12 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ logoSrc }) => {
+  const links = [
+    { href: "#home", label: "Home" },
+    { href: "#products", label: "Products" },
+    { href: "#about", label: "About Us" },
+    { href: "#footer", label: "Footer" },
+  ];
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -13,10 +19,11 @@ const Navbar: React.FC<NavbarProps> = ({ logoSrc }) => {
       </div>
 
       <div className="nav-link">
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#about">About Us</a>
-        <a href="">Contact Us</a>
+        {links.map((link, index) => (
+          <a key={index} href={link.href}>
+            {link.label}
+          </a>
+        ))}
       </div>
 
       <div className="nav-right">
