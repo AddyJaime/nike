@@ -5,6 +5,7 @@ import "./index.css";
 import logo from "./assets/images/header-logo.svg";
 import React from "react";
 import About from "./components/About/About";
+import Shipping from "./components/Shipping /Shipping";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Home />
       <Products />
       <About />
+      <Shipping />
     </div>
   );
 };
