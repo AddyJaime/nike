@@ -6,20 +6,20 @@ const Shipping: React.FC = () => {
     <div className="shipping">
       <div className="shipping-tems">
         <span>🛻</span>
-        <h2>Free shipping</h2>
+        <h3>Free shipping</h3>
         <p>Enjoy seamless shopping with our complimentary shipping service.</p>
       </div>
       <div className="shipping-tems">
-        <span>💳🔒</span>
+        <span>💳</span>
         <h3>Secure Payment</h3>
         <p>
-          Experience worry-free transactions with our secure payment options..
+          Experience worry-free transactions with our secure payment options.
         </p>
       </div>
       <div className="shipping-tems">
-        <span>❤️🤝</span>
-        <h4>Love to help you</h4>
-        <p>Our dedicated team is here to assist you every step of the way..</p>
+        <span>❤️</span>
+        <h3>Love to help you</h3>
+        <p>Our dedicated team is here to assist you every step of the way.</p>
       </div>
     </div>
   );
