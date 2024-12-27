@@ -19,7 +19,7 @@ const Shipping: React.FC = () => {
       <div className="shipping-tems">
         <span>❤️</span>
         <h3>Love to help you</h3>
-        <p>Our dedicated team is here to assist you every step of the way.</p>
+        <p>Our dedicated team is here to assist you.</p>
       </div>
     </div>
   );

@@ -8,19 +8,18 @@
 }
 
 .shipping-tems {
+  max-width: 400px;
+  width: auto;
+  flex: 0;
+  text-align: center;
   border: 2px solid black;
   border-radius: 20px;
-  padding: 50px;
-  width: 200px;
-}
-.shipping span {
-  font-size: 28px;
-}
-.shipping-tems h3 {
-  font-size: 25px;
+  padding: 60px;
 }
 
-.shipping-tems p {
-  font-size: 23px;
-  font-family: var(--navbar-font-family);
+.shipping-tems span {
+  font-size: 35px;
+}
+.shipping-tems h3 {
+  font-size: 35px;
 }
