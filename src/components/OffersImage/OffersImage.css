@@ -1,4 +1,4 @@
 .offers-img-container img {
-  display: inline;
+  display: block;
   margin-right: 120px;
 }
