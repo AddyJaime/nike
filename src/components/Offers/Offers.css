@@ -1,11 +1,27 @@
 .offers {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.413);
-  min-height: 50vh;
+  /* background-color: rgba(255, 0, 0, 0.413); */
+  min-height: 80vh;
 }
 .special-offer-container {
   max-width: 450px;
+}
+
+.special-offer-container p {
+  font-family: var(--paragram-font-size);
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.hight-light {
+  color: var(--home-color);
+  padding: 4px;
+  font-size: 45px;
 }

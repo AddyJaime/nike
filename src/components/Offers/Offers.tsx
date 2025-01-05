@@ -9,7 +9,7 @@ const Offers: React.FC = () => {
       <OffersImage />
       <div className="special-offer-container">
         <h2>
-          <span>Special</span>
+          <span className="hight-light">Special</span>
           Offer
         </h2>
         <p>
