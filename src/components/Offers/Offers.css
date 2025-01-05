@@ -6,3 +6,6 @@
   background-color: rgba(255, 0, 0, 0.413);
   min-height: 50vh;
 }
+.special-offer-container {
+  max-width: 450px;
+}
