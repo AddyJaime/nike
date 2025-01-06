@@ -4,12 +4,11 @@
   justify-content: center;
   width: 100%;
   min-height: 80vh;
-  gap: 180px;
+  gap: 120px;
 }
 .special-offer-container {
-  max-width: 500px;
+  max-width: 700px;
   line-height: 30px;
-  background-color: red;
 }
 
 .special-offer-container p {
