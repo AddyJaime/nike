@@ -1,14 +1,15 @@
 .offers {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-
+  justify-content: center;
   width: 100%;
-  /* background-color: rgba(255, 0, 0, 0.413); */
   min-height: 80vh;
+  gap: 180px;
 }
 .special-offer-container {
-  max-width: 450px;
+  max-width: 500px;
+  line-height: 30px;
+  background-color: red;
 }
 
 .special-offer-container p {
@@ -24,4 +25,9 @@ h2 {
   color: var(--home-color);
   padding: 4px;
   font-size: 45px;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: var(--home-color);
 }

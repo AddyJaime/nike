@@ -15,12 +15,14 @@ const Offers: React.FC = () => {
         <p>
           Embark on a shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
-          offer unparalleled value that sets us apart. Navigate a realm of
-          possibilities designed to fulfill your unique desires, surpassing the
-          loftiest expectations. Your journey with us is nothing short of
-          exceptional.
+          offer unparalleled value that sets us apart.
         </p>
-        <Button>Shop Now </Button>
+        <p>
+          Navigate a realm of possibilities designed to fulfill your unique
+          desires, surpassing the loftiest expectations. Your journey with us is
+          nothing short of exceptional.
+        </p>
+        <Button className="btn-secondary">Shop Now </Button>
       </div>
     </div>
   );
