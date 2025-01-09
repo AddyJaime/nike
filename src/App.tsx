@@ -13,6 +13,7 @@ const App: React.FC = () => {
   return (
     <div className="page-container">
       <Navbar logoSrc={logo} />
+
       <Home />
       <Products />
       <About />
