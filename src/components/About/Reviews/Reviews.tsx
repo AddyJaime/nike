@@ -4,7 +4,7 @@ import "./Reviews.css";
 const Reviews = () => {
   return (
     <div className="reviews-container">
-      <div>
+      <div className="inner-review-container">
         <h1>
           What Our <span className="highlight-customer">Customers</span> say?
         </h1>
