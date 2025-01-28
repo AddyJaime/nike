@@ -1,5 +1,9 @@
 .reviews-container {
+  text-align: center;
   width: 100%;
   min-height: 50vh;
-  background-color: red;
+}
+
+.first-container {
+  background-color: rgba(255, 0, 0, 0.332);
 }

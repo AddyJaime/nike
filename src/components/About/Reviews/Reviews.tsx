@@ -11,7 +11,7 @@ const Reviews = () => {
           exceptional experiences with us.
         </p>
       </div>
-      <div>
+      <div className="first-container">
         <img src="" alt="" />
         <p>
           The attention to detail and the quality of the product exceeded my
