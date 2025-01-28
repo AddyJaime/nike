@@ -1,8 +1,9 @@
 import React from "react";
+import "./Reviews.css";
 
 const Reviews = () => {
   return (
-    <div>
+    <div className="reviews-container">
       <div>
         <h1>What Our Customers say</h1>
         <p>
