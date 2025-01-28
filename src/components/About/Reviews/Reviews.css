@@ -11,7 +11,8 @@
 }
 
 .reviews-container h1 {
-  font-size: 45px;
+  font-size: 55px;
+  margin-bottom: -5px;
 }
 
 .highlight-customer {
@@ -26,6 +27,6 @@
   align-items: center;
 }
 .paragram-review {
-  max-width: 600px;
-  font-size: 20px;
+  max-width: 550px;
+  font-size: 22px;
 }
