@@ -2,7 +2,7 @@
   text-align: center;
   width: 100%;
   min-height: 50vh;
-  background-color: aliceblue;
+  background-color: #f3f3f73c;
 }
 
 .first-container {
@@ -29,4 +29,11 @@
 .paragram-review {
   max-width: 550px;
   font-size: 22px;
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
