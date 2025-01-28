@@ -10,6 +10,24 @@ const Reviews = () => {
           exceptional experiences with us.
         </p>
       </div>
+      <div>
+        <img src="" alt="" />
+        <p>
+          The attention to detail and the quality of the product exceeded my
+          expectations. Highly recommended!
+        </p>
+        <span>⭐️</span>
+        <h2>Morich Brown</h2>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p>
+          The product not only met but exceeded my expectations. I'll be a
+          returning customer!
+        </p>
+        <span>⭐️</span>
+        <h2>Lota Mongeskar</h2>
+      </div>
     </div>
   );
 };
