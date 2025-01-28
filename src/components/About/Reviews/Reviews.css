@@ -5,5 +5,19 @@
 }
 
 .first-container {
+  /* width: 50%; */
+  max-width: 600px;
   background-color: rgba(255, 0, 0, 0.332);
+}
+
+.reviews-container h1 {
+  font-size: 45px;
+}
+
+.highlight-customer {
+  color: var(--home-color);
+}
+
+.paragram-review {
+  font-size: 25px;
 }

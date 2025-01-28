@@ -5,8 +5,10 @@ const Reviews = () => {
   return (
     <div className="reviews-container">
       <div>
-        <h1>What Our Customers say</h1>
-        <p>
+        <h1>
+          What Our <span className="highlight-customer">Customers</span> say?
+        </h1>
+        <p className="paragram-review">
           Hear genuine stories from our satisfied customers about their
           exceptional experiences with us.
         </p>
