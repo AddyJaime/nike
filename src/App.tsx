@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Shipping from "./components/Shipping /Shipping";
 import Offers from "./components/Offers/Offers";
 import Reviews from "./components/About/Reviews/Reviews";
+import SignUp from "./components/SignUp/SignUp";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <Shipping />
       <Offers />
       <Reviews />
+      <SignUp />
     </div>
   );
 };
