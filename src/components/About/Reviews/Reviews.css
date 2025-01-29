@@ -5,11 +5,6 @@
   background-color: #f3f3f73c;
 }
 
-.first-container {
-  max-width: 600px;
-  background-color: rgba(255, 0, 0, 0.332);
-}
-
 .reviews-container h1 {
   font-size: 55px;
   margin-bottom: -5px;
@@ -33,7 +28,22 @@
 
 .first-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+}
+.first-container img {
+  width: 110px;
+  border-radius: 100%;
+}
+.Morich-Brown {
+  font-size: 25px;
+  max-width: 300px;
+}
+.Lota-Mongeskar {
+  font-size: 25px;
+  max-width: 300px;
+}
+.first-container h2 {
+  font-size: 24px;
 }

@@ -16,21 +16,24 @@ const Reviews = () => {
         </p>
       </div>
       <div className="first-container">
-        <img src={customer1} alt="" />
-        <p>
-          The attention to detail and the quality of the product exceeded my
-          expectations. Highly recommended!
-        </p>
-        <span>⭐️</span>
-        <h2>Morich Brown</h2>
+        <div className="Morich-Brown">
+          <img src={customer1} alt="" />
+          <p>
+            The attention to detail and the quality of the product exceeded my
+            expectations. Highly recommended!
+          </p>
 
-        <img src={customer2} alt="" />
-        <p>
-          The product not only met but exceeded my expectations. I'll be a
-          returning customer!
-        </p>
-        <span>⭐️</span>
-        <h2>Lota Mongeskar</h2>
+          <h2>Morich Brown</h2>
+        </div>
+        <div className="Lota-Mongeskar">
+          <img src={customer2} alt="" />
+          <p>
+            The product not only met but exceeded my expectations. I'll be a
+            returning customer!
+          </p>
+
+          <h2>Lota Mongeskar</h2>
+        </div>
       </div>
     </div>
   );
