@@ -4,8 +4,12 @@ import "./SignUp.css";
 const SignUp: React.FC = () => {
   return (
     <div className="sign-up-container">
-      <p>Sign Up for Updates & Newsletter</p>
-      <input type="text" />
+      <div>
+        <p className="signup-paragram">Sign Up for Updates & Newsletter</p>
+      </div>
+      <div>
+        <input type="text" placeholder="subscribe@nike.com" />
+      </div>
     </div>
   );
 };
