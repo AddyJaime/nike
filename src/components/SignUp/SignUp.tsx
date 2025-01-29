@@ -8,7 +8,7 @@ const SignUp: React.FC = () => {
         <p className="signup-paragram">Sign Up for Updates & Newsletter</p>
       </div>
       <div>
-        <input type="text" placeholder="subscribe@nike.com" />
+        <input className="input" type="text" placeholder="subscribe@nike.com" />
       </div>
     </div>
   );
