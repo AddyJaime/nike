@@ -24,7 +24,7 @@ const App: React.FC = () => {
       <Offers />
       <Reviews />
       <SignUp />
-      <Footer />
+      <Footer logoSrc={logo} />
     </div>
   );
 };
