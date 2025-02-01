@@ -15,24 +15,21 @@ const Footer: React.FC<FooterProps> = ({ logoSrc }) => {
           Get shoes ready for the new term at your nearest Nike store. Find Your
           perfect Size In Store. Get Rewards
         </p>
+
         <div className="social-media">
           <FaInstagram />
           <FaTwitter />
           <FaFacebook />
         </div>
+        <div className="footer-text">
+          <p>copyright sign Copyright. All rights reserved.</p>
+          <p>Terms & Conditions</p>
+        </div>
       </div>
-      <div className="quick-access-columns">
+      <div className="quick-access-colums">
         <h1>Products</h1>
-      </div>
-      <div>
         <h1>Help</h1>
-      </div>
-      <div>
         <h1>Get in touch</h1>
-      </div>
-      <div className="footer-text">
-        <p>copyright sign Copyright. All rights reserved.</p>
-        <p>Terms & Conditions</p>
       </div>
     </div>
   );
