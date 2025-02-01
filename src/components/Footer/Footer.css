@@ -1,8 +1,23 @@
 .footer {
   min-height: 60vh;
-  background-color: rgba(0, 0, 0, 0.335);
 }
 
 .logo {
-  width: 150px;
+  width: 200px;
+}
+.logo-container {
+  padding: 200px;
+}
+
+.logo-container p {
+  max-width: 410px;
+  font-size: 30px;
+  color: black;
+}
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  background-color: red;
+  font-size: 40px;
 }

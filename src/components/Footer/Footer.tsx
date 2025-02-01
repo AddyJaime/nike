@@ -9,7 +9,7 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({ logoSrc }) => {
   return (
     <div className="footer">
-      <div className="logo">
+      <div className="logo-container">
         <img className="logo" src={logoSrc} />
         <p>
           Get shoes ready for the new term at your nearest Nike store. Find Your
