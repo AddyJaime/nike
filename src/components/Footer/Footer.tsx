@@ -20,6 +20,16 @@ const Footer: React.FC<FooterProps> = ({ logoSrc }) => {
           <FaTwitter />
           <FaFacebook />
         </div>
+        <p>copyright sign Copyright. All rights reserved.</p>
+      </div>
+      <div>
+        <h1>Products</h1>
+      </div>
+      <div>
+        <h1>Help</h1>
+      </div>
+      <div>
+        <h1>Get in touch</h1>
       </div>
     </div>
   );
