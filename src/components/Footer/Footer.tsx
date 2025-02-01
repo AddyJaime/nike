@@ -20,9 +20,8 @@ const Footer: React.FC<FooterProps> = ({ logoSrc }) => {
           <FaTwitter />
           <FaFacebook />
         </div>
-        <p>copyright sign Copyright. All rights reserved.</p>
       </div>
-      <div>
+      <div className="quick-access-columns">
         <h1>Products</h1>
       </div>
       <div>
@@ -30,6 +29,10 @@ const Footer: React.FC<FooterProps> = ({ logoSrc }) => {
       </div>
       <div>
         <h1>Get in touch</h1>
+      </div>
+      <div className="footer-text">
+        <p>copyright sign Copyright. All rights reserved.</p>
+        <p>Terms & Conditions</p>
       </div>
     </div>
   );
